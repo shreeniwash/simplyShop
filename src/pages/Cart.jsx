@@ -47,7 +47,7 @@ const Cart = () => {
   return (
     <>
     
-    <div className='w-full flex items-center '>
+    <div className='w-full  '>
 
       
       {cartItems.length ===0 ? (

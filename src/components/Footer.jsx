@@ -13,18 +13,18 @@ const Footer = () => {
 
         
         <div className="w-full md:w-1/4">
-          <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+          <h3 className="text-lg font-bold mb-4">Follow Us</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-green-400">Facebook</a></li>
-            <li><a href="#" className="hover:text-green-400">Instagram</a></li>
-            <li><a href="#" className="hover:text-green-400">Twitter</a></li>
+            <li><a href="#" className="hover:text-green-400 text-gray-600">Facebook</a></li>
+            <li><a href="#" className="hover:text-green-400 text-gray-600">Instagram</a></li>
+            <li><a href="#" className="hover:text-green-400  text-gray-600">Twitter</a></li>
            
           </ul>
         </div>
 
      
         <div className="w-full md:w-1/4">
-          <h3 className="text-lg font-semibold mb-4">Our Address</h3>
+          <h3 className="text-lg font-bold mb-4">Our Address</h3>
           <p className="text-sm text-gray-600">
             45 Industrial Park Lane, <br />
             Naroda, Ahmedabad, Gujarat 382330 <br />

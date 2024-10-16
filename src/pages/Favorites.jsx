@@ -5,7 +5,13 @@ import { AppContext } from '../context/AppContextProvider'
 const Favorites = () => {
   const {removeFav,favoriteItems}= useContext(AppContext)
   return (
-    <div className='flex flex-col items-center gap-4 text-gray-900 my-10'>
+
+    <div className='w-full'>
+     {favoriteItems.length === 0 ? (
+     <p  className='text-2xl font-semibold text-center mt-10'>Your Favorites list is empty.</p>
+
+     ):(
+       <div className='flex flex-col items-center gap-4 text-gray-900 my-10'>
         <div className='w-full grid grid-cols-auto px-4 sm:px-4 pt-4 gap-8'>
           {favoriteItems.map((item, index) => (
             <div key={index}>
@@ -25,6 +31,8 @@ const Favorites = () => {
           ))}
         </div>
       </div>
+     )}
+    </div>
   )
 }
 
